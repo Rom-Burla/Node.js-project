@@ -1,0 +1,26 @@
+{
+  "name": "node.js-project",
+  "version": "0.0.1",
+  "description": "HackerU node.js project",
+  "main": "app.js",
+  "scripts": {
+    "dev": "npx nodemon app",
+    "start": "npx node app"
+  },
+  "keywords": [
+    "node.js",
+    "project",
+    "HackerU"
+  ],
+  "author": "Rom and Chani",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "joi": "^17.7.1",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.9.2"
+  }
+}
